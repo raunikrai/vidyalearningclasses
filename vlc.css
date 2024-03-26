@@ -96,7 +96,7 @@ body{
   transition: opacity 0.15s;
 }
 .whatsapp-button:hover{
-  opacity: 0.8s;
+  opacity: 0.8;
 }
 .whatsapp-image{
   object-fit: scale-down;
@@ -118,7 +118,7 @@ body{
   border-width: 0px;
   transition: opacity 0.15s;
 }
-.location:hover{
+.location-button:hover{
   opacity: 0.8;
 }
 .location-image{
