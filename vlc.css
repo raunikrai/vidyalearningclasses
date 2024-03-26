@@ -1,143 +1,130 @@
-    .vlc{
-      color: Red;
-      font-family: tauri;
-      font-weight: 600;
-      text-align: center;
-      font-size: 100px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      border-color: black;
-      border-width: 10px;
-      text-shadow: 2px 2px 8px #ffffff,3px 3px 8px rgb(0,0,0);
-    }
-    .vlc1{
-      color: blue;
-      text-align: center;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      font-size: 40px;
-      text-shadow: 2px 2px 8px #000000;
-      margin-bottom: 0px;
-    }
-    body{
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
-      background-image: url('background.jpg');
-    }
-    .a{
-      color: white;
-      margin-top: 15px;
-      text-align: center;
-      display: block;
-      margin-left: 28%;
-      margin-right: 28%;
-
-    }
-    
-    .bold{
-      font-weight: bold;
-    }
-    .addd{
-      color: white;
-      display: block;
-      text-shadow: 2px 2px 8px rgb(0,0,0);
-      text-align: center;
-    }
-    .open{
-      font-size: 100px;
-      margin-top: 10px;
-      margin-bottom: 0px;
-      text-shadow: 4px 4px 10px rgb(0,0,0);
-    }
-    .class{
-      font-size: 70px;
-      margin-top: 10px;
-      margin-bottom: 0px;
-      text-shadow: 4px 4px 10px rgb(0,0,0);
-    }
-    .subject{
-      font-size: 50px;
-      text-shadow: 2px 2px 8px rgb(0,0,0);
-
-      margin-top: 5px;
-      margin-bottom: 0px;
-
-    }
-    .contact{
-      display: inline-block;
-      margin-top: 20px;
-      margin-right: 30px;
-    }
-    .tel{
-      vertical-align: middle;
-      font-size: 30px;
-      background-color: rgb(31, 255, 31);
-      padding-right: 10px;
-      border-radius: 10px;
-      border-width: 0px;
-      transition: opacity 0.15ss;
-    }
-    .call{
-      height: 80px;
-      vertical-align: middle;
-      mix-blend-mode: multiply;
-    }
-    .chat{
-      object-fit: scale-down;
-      height: 80px;
-      vertical-align: middle;
-    }
-    .whats{
-      
-      display: inline-block;
-      margin-top: 20px;
-    }
-    .hkh{
-      vertical-align: middle;
-      font-size: 30px;
-      background-color: rgb(4,220,91);
-      padding-right: 10px;
-      border-radius: 10px;
-      border-width: 0px;
-      transition: opacity 0.15s;
-    }
-    .both{
-      text-align: center;
-    }
-    .tel:hover{
-      opacity: 0.8;
-
-    }
-    .hkh:hover{
-      opacity: 0.8;
-    }
-    .maps{
-      height: 80px;;
-    }
-    .loc{
-      display: inline-block;
-      text-align: center;
-      margin-left: 30px;
-      vertical-align: middle;
-    }
-
-    .location{
-      vertical-align: middle;
-      font-size: 30px;
-      background-color: rgb(4,220,91);
-      padding-right: 10px;
-      border-radius: 10px;
-      border-width: 0px;
-      transition: opacity 0.15s;
-      
-    }
-    .maps{
-      vertical-align: middle;
-    }
-    .tion{
-      margin-left: 10px;
-    }
-    .location:hover{
-      opacity:0.8;
-    }
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url('background.jpg');
+}
+.vlc{
+  color: Red;
+  font-family: tauri;
+  font-weight: 600;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-color: black;
+  border-width: 10px;
+  text-shadow: 2px 2px 8px #ffffff,3px 3px 8px rgb(0,0,0);
+}
+.vlctitle{
+  color: blue;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px #000000;
+  margin-bottom: 0px;
+}
+.address-total{
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+  margin-left: 28%;
+  margin-right: 28%;
+}
+.all-three-admission{
+  color: white;
+  display: block;
+  text-shadow: 2px 2px 8px rgb(0,0,0);
+  text-align: center;
+}
+.admission-open{
+ font-size: 100px;
+ margin-top: 10px;
+ margin-bottom: 0px;
+ text-shadow: 4px 4px 10px rgb(0,0,0);
+}
+.classes-sixth-to-twelveth{
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-shadow: 4px 4px 10px rgb(0,0,0);
+}
+.all-subject{
+  font-size: 50px;
+  text-shadow: 2px 2px 8px rgb(0,0,0);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.all-buttons-div{
+  text-align: center;
+}
+.call-now-div{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.call-now-button{
+  vertical-align: middle;
+  font-size: 30px;
+  background-color: rgb(31, 255, 31);
+  padding-right: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  transition: opacity 0.15ss;
+}
+.call-now-button:hover{
+  opacity: 0.8;
+}
+.call-now-image{
+  height: 80px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+.whatsapp-div{
+  display: inline-block;
+  margin-top: 20px;
+}
+.whatsapp-button{
+  vertical-align: middle;
+  font-size: 30px;
+  background-color: rgb(4,220,91);
+  padding-right: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  transition: opacity 0.15s;
+}
+.whatsapp-button:hover{
+  opacity: 0.8s;
+}
+.whatsapp-image{
+  object-fit: scale-down;
+  height: 80px;
+  vertical-align: middle;
+}
+.location-div{
+  display: inline-block;
+  text-align: center;
+  margin-left: 30px;
+  vertical-align: middle;
+}   
+.location-button{
+  vertical-align: middle;
+  font-size: 30px;
+  background-color: rgb(4,220,91);
+  padding-right: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  transition: opacity 0.15s;
+}
+.location:hover{
+  opacity: 0.8;
+}
+.location-image{
+  vertical-align: middle;
+  height:80px;
+}
+.location-span{
+  margin-left: 10px;
+}
